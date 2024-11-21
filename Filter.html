@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Country Filters</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js" defer></script>
+    </head>
+    <body>    
+        <h1>Country Info: Currency Filters</h1>
+
+        <div class="nav">
+            <a href="Home.html">Home</a>
+            <a class="active" href="Filter.html">Currency Filter</a>
+            <a href="language.html">Language Filter</a>
+            <a href="region.html">Region Filter</a>
+            <a href="comparison.html">Country Chart</a>
+        </div>
+
+        <br>
+
+        <div class="searchbar">
+            <label for="currname">Name a Currency:</label>
+            <input type="text" id="currname" required>
+            <button onclick="currinfo(); return false">Search</button>
+        </div>
+
+        <hr>
+
+        <div class="fulllist">
+            <h2 id="counter"></h2>
+            <p id="listnames"></p>
+        </div>
+
+        <footer>
+            <p>William Delmo 2024 &copy;</p>
+        </footer>
+    </body>
+</html>

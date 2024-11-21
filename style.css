@@ -1,0 +1,150 @@
+h1 {
+    text-align: center;
+    background-color: lightblue;
+    border: solid;
+}
+
+footer { 
+    text-align: center;
+    background-color: lightblue;
+    border: solid;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.searchbar {
+    text-align: center;
+    background-color: lightcyan;
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.infobox {
+    text-align: center;
+    background-color: lightcyan;
+    border: solid;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.infobox:hover {
+    background-color: lightblue;
+    color: black;
+    border: dotted white;
+}
+
+.nationbox:hover {
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.nav {
+    background-color: rgb(255, 252, 252);
+    overflow: hidden;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 375.5px;
+    margin-right: 375.5px;
+}
+
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: rgb(254, 254, 254);
+}
+
+.nav a.active {
+    background-color: blue;
+    color: white;
+}
+
+#listnames {
+    background-color: lightcyan;
+    color: black;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+}
+
+#listnames p {
+    font-size: 15px;
+
+}
+
+#counter {
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.langlist {
+    background-color: lightcyan;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+
+#langcount {
+    background-color: lightblue;
+}
+
+#langcount:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.regionlist {
+    background-color: rgb(195, 253, 195);
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 50px;
+}
+
+#regnames:hover {
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+
+.main {
+    background-color: rgb(106, 151, 211);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+#chartname:hover {
+    background-color: aliceblue;
+}
+
+#mychart {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}

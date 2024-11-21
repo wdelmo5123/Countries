@@ -1,0 +1,49 @@
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js" defer></script>
+</head>
+<body>
+    <h1>Country Info: Home</h1>
+
+    <div class="nav">
+        <a class="active" href="Home.html">Home</a>
+        <a href="Filter.html">Currency Filter</a>
+        <a href="language.html">Language Filter</a>
+        <a href="region.html">Region Filter</a>
+        <a href="comparison.html">Country Chart</a>
+    </div>
+
+    <br>
+
+    <div class="searchbar">
+        <label for="name">Name a Country:</label>
+        <input type="text" id="name" required>
+        <button onclick="info(); return false">Search</button>
+    </div>
+
+    <hr>
+
+    <div class="infobox">
+        <div class="countryname">
+            <h2 id="nationname"></h2>
+        </div>
+        <hr>
+        <div class="nationbox">
+            <p id="continentbox"></p>
+            <p id="capitalbox"></p>
+            <p id="populationbox"></p>
+            <p id="popden"></p>
+            <p id="currencybox"></p>
+            <p id="timebox"></p>
+            <p id="unbox"></p>
+            <img id="pic" src="">
+        </div>
+    </div>
+
+    <br>
+
+    <footer>
+        <p>William Delmo 2024 &copy;</p>
+    </footer>
+</body>
